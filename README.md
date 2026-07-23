@@ -1,16 +1,74 @@
-# React + Vite
+# ToDoList
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto é uma aplicação simples para gerenciar tarefas de forma prática e intuitiva. A proposta é oferecer uma interface limpa para organizar atividades, acompanhar o progresso e manter o controle do dia a dia.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![ESLint](https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white)
 
-## React Compiler
+- React
+- Vite
+- JavaScript
+- ESLint
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Funcionalidades
 
-## Expanding the ESLint configuration
+- Adicionar novas tarefas à lista
+- Remover tarefas quando necessário
+- Organizar o fluxo de trabalho com uma interface simples
+- Facilitar o acompanhamento das atividades do dia a dia
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📂 Estrutura do Projeto
+
+```text
+todo-list/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   │   ├── Task.jsx
+│   │   ├── TaskInput.jsx
+│   │   └── TaskList.jsx
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── index.html
+├── package.json
+└── vite.config.js
+```
+
+## ⚙️ Como executar o projeto
+
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/deiiamac/ToDoList.git
+```
+
+2. Entre na pasta do projeto:
+
+```bash
+cd "ToDoList"
+```
+
+3. Instale as dependências:
+
+```bash
+npm install
+```
+
+4. Execute o projeto:
+
+```bash
+npm run dev
+```
+
+## 📸 Preview
+
+<img width="533" height="261" alt="image" src="https://github.com/user-attachments/assets/a55ae765-aba6-42ca-995f-311effe4b524" />
+
+<img width="533" height="261" alt="image" src="https://github.com/user-attachments/assets/a1c0e08c-6693-4033-80d5-ced4878ba443" />
+
